@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Денис Утюжников](https://up.htmlacademy.ru/adaptive/13/user/292363).
-* Наставник: `Неизвестно`.
+* Студент: [Денис Утюжников].
+* Наставник: [Лиза Позднякова].
 
 ---
 
