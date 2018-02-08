@@ -1,3 +1,25 @@
 .reasons{
-  outline: 1px solid #008080;
+  padding: 40px 20px;
+  background-color: #eeeeee;
+}
+
+.reasons__title{
+  margin: 0 auto;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  color: $heading-dark;
+}
+
+.reasons__number{
+  display: block;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.reasons__text{
+  margin: 0 auto;
+  text-align: center;
+  color: #7f7f7f;
 }

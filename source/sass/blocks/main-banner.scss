@@ -1,3 +1,17 @@
 .main-banner{
-  outline: 1px solid #008080;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  background-color: $text-color-blue--beau;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+img{
+  position: relative;
+  display: block;
+  margin: auto;
+  top: -7px;
+  width: 229px;
 }

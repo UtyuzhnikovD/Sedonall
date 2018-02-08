@@ -1,3 +1,15 @@
 .page-header{
-  outline: 1px solid #008080;
+  position: relative;
+  background-color: $background-blue;
+}
+
+.page-header__logo{
+  width: 102px;
+  height: 83px;
+  position: absolute;
+}
+
+.page-header__image{
+  overflow: hidden;
+  margin: 0 auto;
 }

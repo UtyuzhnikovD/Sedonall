@@ -1,3 +1,27 @@
 .search{
-  outline: 1px solid #008080;
+  padding: 30px 20px 50px 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search__title{
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 19px;
+  color: $heading-dark;
+}
+
+.search__description{
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 22px;
+  color: $text-color-gray--light;
+}
+
+.search__link{
+  margin-top: 35px;
+}
+
+.search__button{
+  margin-top: 38px;
 }

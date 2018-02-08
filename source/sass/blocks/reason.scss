@@ -1,3 +1,36 @@
-.reason{
-  outline: 1px solid #008080;
+.reason__item{
+  padding-top: 60px;
+  background-color: $background-blue;
+  text-align: center;
+}
+
+.reason__title{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 15px;
+  color: $heading-white;
+}
+
+.reason__text{
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: $text-color-blue--beau;
+}
+
+.reason-photo{
+  position: relative;
+  min-width: 320px;
+  overflow: hidden;
+}
+
+.reason__image{
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $background-white;
 }
