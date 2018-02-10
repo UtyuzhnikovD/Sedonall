@@ -6,7 +6,7 @@
   &__title{
     margin-bottom: 26px;
     text-align: center;
-    color: $heading-dark;
+    color: $info-heading-color;
   }
 
   &__text{
@@ -15,6 +15,6 @@
     font-weight: normal;
     line-height: 24px;
     text-align: center;
-    color: $text-color-gray--light;
-  }
+    color: $info-text-color;
+   }
 }

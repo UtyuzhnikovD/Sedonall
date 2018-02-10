@@ -1,6 +1,6 @@
 .reasons{
   padding: 40px 20px;
-  background-color: #eeeeee;
+  background-color: $reasons-background-color;
 }
 
 .reasons__title{
@@ -9,7 +9,7 @@
   text-align: center;
   font-size: 18px;
   line-height: 26px;
-  color: $heading-dark;
+  color: $reasons-heading-color;
 }
 
 .reasons__number{
@@ -21,5 +21,5 @@
 .reasons__text{
   margin: 0 auto;
   text-align: center;
-  color: #7f7f7f;
+  color: $gray-light;
 }

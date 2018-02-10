@@ -1,6 +1,6 @@
 .reason__item{
   padding-top: 60px;
-  background-color: $background-blue;
+  background-color: $reason-background-color;
   text-align: center;
 }
 
@@ -10,15 +10,14 @@
   font-size: 18px;
   line-height: 26px;
   padding-bottom: 15px;
-  color: $heading-white;
+  color: $reason-heading-color;
 }
 
 .reason__text{
   margin: 0;
   padding: 0;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  color: $text-color-blue--beau;
+  line-height: 21px;
+  color: $reason-text-color;
 }
 
 .reason-photo{
@@ -32,5 +31,5 @@
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: $background-white;
+  background-color: $reason-image-background-color;
 }
