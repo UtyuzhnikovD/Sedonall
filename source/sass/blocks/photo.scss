@@ -1,3 +1,22 @@
-.photo{
-  outline: 1px solid #008080;
+.photo-item {
+  margin: 22px 20px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.photo-item__titile {
+  margin: 0;
+  padding: 0;
+  padding-top: 19px;
+  color: $photo-heading-color;
+}
+
+.photo-item__author {
+  text-transform: none;
+  padding-top: 10px;
+  color: $photo-text-color;
+}
+
+.photo-item__image {
+  display: block;
 }
