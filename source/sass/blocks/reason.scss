@@ -1,10 +1,10 @@
-.reason__item{
+.reason__item {
   padding-top: 60px;
   background-color: $reason-background-color;
   text-align: center;
 }
 
-.reason__title{
+.reason__title {
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -13,20 +13,20 @@
   color: $reason-heading-color;
 }
 
-.reason__text{
+.reason__text {
   margin: 0;
   padding: 0;
   line-height: 21px;
   color: $reason-text-color;
 }
 
-.reason-photo{
+.reason-photo {
   position: relative;
   min-width: 320px;
   overflow: hidden;
 }
 
-.reason__image{
+.reason__image {
   min-width: 100%;
   min-height: 100%;
   margin: 0;

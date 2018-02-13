@@ -1,14 +1,14 @@
-.video{
+.video {
   text-align: center;
   padding-top: 35px;
 }
 
-.video__title{
+.video__title {
   font-size: 18px;
   line-height: 26px;
 }
 
-.video__description{
+.video__description {
   margin: 0;
   padding: 0;
   padding: 35px 25px 40px;
@@ -16,13 +16,13 @@
   color: $video-text-color;
 }
 
-.video__clip{
+.video__clip {
   margin: 0 auto;
   width: 320px;
   text-align: center;
 }
 
-.video__player{
+.video__player {
   margin: 0 auto;
   height: 200px;
 }
