@@ -6,6 +6,15 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-size: cover;
   overflow: hidden;
+
+  &--long {
+    min-height: 390px;
+  }
+  &--short {
+    min-height: 160px;
+    background-size: 100%;
+    background-position: right;
+  }
 }
 
 .main-banner__image {
@@ -14,4 +23,23 @@
   margin: auto;
   top: -7px;
   width: 229px;
+}
+
+@media (min-width: 768px) {
+  .main-banner {
+    &--long {
+      min-height: 518px;
+      background-size: 100%;
+    }
+    
+    &--short {
+      min-height: 290px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-banner__image {
+    height: 302px;
+  }
 }

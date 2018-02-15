@@ -1,3 +1,9 @@
+.reason {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
 .reason__item {
   padding-top: 60px;
   background-color: $reason-background-color;
@@ -22,14 +28,53 @@
 
 .reason-photo {
   position: relative;
+  flex-grow: 1;
   min-width: 320px;
   overflow: hidden;
 }
 
 .reason__image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
   min-width: 100%;
   min-height: 100%;
-  margin: 0;
-  padding: 0;
+  transform: translate(-50%, -50%);
   background-color: $reason-image-background-color;
+}
+
+@media (min-width: 768px) {
+  .reason {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 768px;
+  }
+
+  .reason__item {
+    width: 256px;
+    height: 256px;
+    padding: 45px;
+  }
+
+  .reason__photo {
+    width: 512px;
+    height: 256px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reason {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .reason__item {
+    width: 400px;
+  }
+
+  .reason__photo {
+    width: 800px;
+  }
 }

@@ -1,6 +1,13 @@
-.reasons {
+.reasons__item {
   padding: 40px 20px;
   background-color: $reasons-background-color;
+  
+  &__short {
+    width: 280px;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+  }
 }
 
 .reasons__title {
@@ -22,4 +29,35 @@
   margin: 0 auto;
   text-align: center;
   color: $gray-light;
+}
+
+@media (min-width: 768px) {
+  .reasons__wrapper {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .reasons__item {
+    display: flex;
+    flex-wrap: wrap;
+    
+    &__short {
+      width: 33.33%;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+}
+
+@media (min-width:1280px) {
+  .reasons__wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .reasons__item {
+    width: 400px;
+  }
 }
