@@ -35,11 +35,11 @@
   line-height: 40px;
   color: $main-nav-link-color;
   text-decoration: none;
-  
+
   &:visited {
     color: $white;
   }
-  
+
   &:hover,
   &:focus {
     background-color: #669ec0;
@@ -82,13 +82,13 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .main-nav{
     margin: 0 auto;
     width: 1200px;
   }
-  
-  .main-nav__item{
+
+  .main-nav__item {
     min-width: 239px;
   }
 }
