@@ -35,7 +35,7 @@
   line-height: 40px;
   color: $main-nav-link-color;
   text-decoration: none;
-  
+
   &:visited {
     color: $white;
   }
@@ -44,7 +44,7 @@
   &:focus {
     background-color: #669ec0;
   }
-  
+
   &:active {
     color: $white;
     background-color: #5496bd;
