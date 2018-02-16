@@ -38,15 +38,15 @@
       </section>
       <div class="reviews-form">
         <form action="https://echo.htmlacademy.ru" method="post">
-          <section class="form-section">
+          <section class="form-section"> =
             <h2 class="form-section__title">Представьтесь:</h2>
-            <ul class="form-section__list">
+            <ul class="form-section__list"> =page-review-person
               <li class="form-section__item">
                 <label class="form-section__label" for="first-name">Имя<sup>*</sup>:
                   <input class="form-section__input" id="first-name" type="text" placeholder="Петр">
                 </label>
               </li>
-              <li class="form-section__item">
+              <li class="form-section__item"> =page-review-person__field
                 <label class="form-section__label" for="second-name">Фамилия<sup>*</sup>:
                   <input class="form-section__input" id="second-name" type="text" placeholder="Иванов">
                 </label>
@@ -111,8 +111,9 @@
           </section>
           <section class="form-section">
             <h2 class="form-section__title">Опишите свои эмоции:</h2>
-            <textarea class="form-section__textarea" id="review-text" name="review-text" placeholder="Опишите подробно все свои восторги">
-            </textarea>
+            <div class="form-section__field">
+              <textarea class="form-section__textarea" id="review-text" name="review-text" placeholder="Опишите подробно все свои восторги"></textarea>
+            </div>
           </section>
           <button class="button reviews-form__button" type="submit">Отправить отзыв</button>
         </form>

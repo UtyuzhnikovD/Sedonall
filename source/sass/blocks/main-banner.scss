@@ -31,14 +31,14 @@
       min-height: 518px;
       background-size: 100%;
     }
-
+    
     &--short {
       min-height: 290px;
     }
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .main-banner__image {
     height: 302px;
   }

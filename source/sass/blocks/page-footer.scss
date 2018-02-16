@@ -41,11 +41,11 @@
   }
 
   .page-footer__copyright {
-    display: flex;
+      display: flex;
+    }
   }
-}
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {  
   .page-footer {
     padding-top: 30px;
     justify-content: space-between;
